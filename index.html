@@ -1,21 +1,77 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" href="style.css" />
+	<!-- Sets webpage title + tab icon. -->
+	<title>Project+Ex - Sceptile</title>
+	<link rel="icon" type="image/png" href="Resources/Images/fav-icon.png">
+
+	<!-- Scripts to make certain things work. -->
+	<link rel="stylesheet" href="Resources/style.css" />
+	<script src="Resources/jquery.js.download"></script>
+	<script src="Resources/jquery.cycle.lite.js.download"></script>
 </head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<style type="text/css">
+body {
+  margin-top:0 !important;
+  padding-top:0 !important;
+  /*min-width:800px !important;*/
+}
+a{ font-weight:700!important; }
+p{ font-size:1.1rem; line-height:1.3rem; }
+footer p{ font-size:0.85rem!important; }
+</style>
 
-<img src="Resources/Images/Sceptile Render.png" width="30%" class="center">
+	<header style="background-image:url('new.jpg'); background-size:cover;">
+		<div class="logo"><a style="width: 940px;" href="https://KingJigglypuff.github.io/index.html"><img src="Resources/Images/logo2.png" alt="Project+"></a></div>
+	</header><div class="menu_div">
+	<nav class="menu container_12">
+	  <ul>
+				<li><a class="active" href="https://projectmridley.github.io/ridley/index.html">About</a></li>
+				<li><a href="https://projectmridley.github.io/ridley/download.html">Download</a></li>
+			  </ul>
+	</nav>
 
-<div style="text-align: center;">
-	<Font1>The Forest Pokémon, Sceptile, joins the fray!</Font1>
+</div>
+<div class="main" style="background-image:url('mosaic-background-pattern.ffaa776b.webp'); background-size:cover;">
+
+	<div class="container_12">
+	
+		
+		<article class="content char_page grid_12">
+			<h1>Sceptile</h1>
+			<section>
+				<!-- Image sequence for slideshow. -->
+				<div style="margin-top:10px;" id="slideshow0" class="char_slides">
+				
+<img src="Resources/Images/Sceptile Overview 1.png" style="position: absolute; top: 0px; z-index: 3; opacity: 1; display: block;">
+<img src="Resources/Images/Sceptile Overview 2.png" style="position: absolute; top: 0px; z-index: 2; display: none; opacity: 0;">
+<img src="Resources/Images/Sceptile Overview 3.png" style="position: absolute; top: 0px; z-index: 1; display: none; opacity: 0;">
 </div>
 
-<video controls loop>
+<!-- Main render image + Character name (custom font referenced in style.css). -->
+<img src="Resources/Images/Sceptile Render - Glow.png" width="30%" class="center">
+<div style="text-align: center;">
+	<p style="color:white;"><Font1>Sceptile</Font1></p>
+</div>
+
+<!-- Overview text. -->
+<h1 style="margin-top:10px; color:white;">OVERVIEW</h1>
+
+<p style="margin-top:20px; color:white;">The Forest Pokémon, Sceptile, joins the fray! Adding some much needed representation from the Hoenn region, this Pokémon slices through the competition with its swift movements and tree-cutting blades!</p>
+
+<video controls loop class="video">
   <source src="Resources/Videos/Idle.mp4" type="video/mp4">
 </video>
+
+<!-- Slideshow script (requires both jquery files to work). -->
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$("[id^=slideshow]").cycle({
+					fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+				});
+			});
+		</script>		
 
 </body>
 </html>
