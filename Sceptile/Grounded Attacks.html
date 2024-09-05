@@ -56,12 +56,77 @@ footer p{ font-size:0.85rem!important; }
 	
 		
 		<article class="content char_page grid_12">
-			<h1>Moveset Showcase</h1>
+			<h1>Grounded Attacks</h1>
 			<section>
-				<h1 style="margin-top:10px;">Currently unavailable.</h1>
+<div style="margin-top:10px;" class="char_slides">
+	<video controls loop class="video">
+		<source src="../Resources/Videos/Jab 1.mp4" type="video/mp4">
+	</video>
+</div>
 
-                <p style="margin-top:20px;">This page is a work in progress. Please come back some other time.</p>
-                <p><br></p>
+<h1 style="margin-top:10px;">Jab 1 - Left Scratch</h1>
+
+<details>
+    <summary>Show Detailed Information</summary>
+		<expand><ul>
+			<p style="margin-top:10px;">Startup: Frame 5</p>
+			<p style="margin-top:10px;">Hitbox Duration: 2 Frames</p>
+			<p style="margin-top:10px;">Jab 2 Transition: Frame 8</p>
+			<p style="margin-top:10px;">Jab 2 Transition Window: 24 Frames</p>
+			<p style="margin-top:10px;">IASA: Frame 20</p>
+			<p style="margin-top:10px;">Damage: 3</p>
+			<p style="margin-top:10px;">Angle: 70/361</p>
+			<p style="margin-top:10px;">WKB: 20</p>
+			<p style="margin-top:10px;">KBG: 100</p>
+			<p style="margin-top:10px;">BKB: 0</p>
+			<p style="margin-top:10px;">Hitlag Multiplier: 1</p>
+			<p style="margin-top:10px;">SDI Multiplier: 1</p>
+			<p style="margin-top:10px;">SFX: Weak Slash</p>
+			<p style="margin-top:10px;">Element: Slash</p>
+		</expand></ul>
+</details>
+
+<p><br><clear></clear></p>
+
+<div style="margin-top:10px;" class="char_slides">
+	<video controls loop class="video">
+		<source src="../Resources/Videos/Jab 2.mp4" type="video/mp4">
+	</video>
+</div>
+
+<h1 style="margin-top:10px;">Jab 2 - Right Scratch</h1>
+
+<details>
+    <summary>Show Detailed Information</summary>
+		<expand><ul>
+			<p style="margin-top:10px;">Startup: Frame 4</p>
+			<p style="margin-top:10px;">Hitbox Duration: 3 Frames</p>
+			<p style="margin-top:10px;">Jab 3 Transition: Frame 9</p>
+			<p style="margin-top:10px;">Jab 3 Transition Window: 24 Frames</p>
+			<p style="margin-top:10px;">IASA: Frame 23</p>
+			<p style="margin-top:10px;">Damage: 3</p>
+			<p style="margin-top:10px;">Angle: 70/361</p>
+			<p style="margin-top:10px;">WKB: 30</p>
+			<p style="margin-top:10px;">KBG: 100</p>
+			<p style="margin-top:10px;">BKB: 0</p>
+			<p style="margin-top:10px;">Hitlag Multiplier: 1</p>
+			<p style="margin-top:10px;">SDI Multiplier: 1</p>
+			<p style="margin-top:10px;">SFX: Weak Slash</p>
+			<p style="margin-top:10px;">Element: Slash</p>
+		</expand></ul>
+</details>
+
+<p><br><clear></clear></p>
+
+<p>Click the "Try it" button to toggle between hiding and showing the DIV element:</p>
+
+<button onclick="toggle()">Try it</button>
+
+<div id="myDIV">
+This is my DIV element.
+</div>
+
+
 			</section>
 		</article>
 						
@@ -104,6 +169,17 @@ footer p{ font-size:0.85rem!important; }
 	      $( this ).siblings('.collapse').toggle();
 	});
 	</script>
+	
+	<script>
+function toggle() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
   
   <footer>
     <p>Sceptile mod made by: KingJigglypuff.</p>
