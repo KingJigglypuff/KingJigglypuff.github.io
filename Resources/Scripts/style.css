@@ -128,7 +128,7 @@ nav.menu li a:hover {
 
 .main {
 	padding: 15px 0px;
-	background: #172D14 url('Images/mosaic-background-pattern.ffaa776b.webp') no-repeat top center;
+	background: #172D14;
 	background-size: cover;
 	background-attachment: fixed;
 	border-bottom: 5px solid white;
