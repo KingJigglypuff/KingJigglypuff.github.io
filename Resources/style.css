@@ -1,0 +1,140 @@
+@font-face {
+	font-family: "Impact";
+	src: url("Fonts/impact.ttf") format("truetype");
+}
+
+Font1 {
+	font-family: "Impact";
+	font-size: 4em;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.video {
+  display: block;
+  margin: 0 auto;
+  width: 40%;
+}
+
+.char_img, .char_slides {
+	width: 320px;
+	height: 180px;
+	float: right;
+	border: 3px solid #63D29F;
+	margin-left: 10px;
+	position: relative;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.char_slides img {
+	position: absolute; 
+	top: 0px; 
+	width: 320px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+/* Header Block */
+
+.debug { position: absolute; }
+
+header {
+	height: 270px;
+	width: 100%;
+	border-bottom: 5px solid white;
+	background: url("Images/new.jpg") top center no-repeat;
+}
+
+.logo {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+}
+
+.logo a {
+	margin: 0px auto; 
+	width: 750px; 
+	height: 260px;
+	display: block;
+}
+
+.logo img { height: 100%; }
+
+/* End Header Styles */
+
+/* Navigation Menu */
+
+.menu_div {
+	background: rgba(0, 0, 0, .75);
+	position: absolute;
+	top: 204px;
+	width: 100%;
+}
+
+nav.menu {
+	font-size: 18px;
+	text-align: center;
+}
+
+nav.menu li {
+	margin: 0px -3px;
+	display: inline-block;
+	width: 260px;
+}
+
+nav.menu li a {
+	font-family: 'Source Sans Pro', sans-serif;
+	padding-top: 8px;
+	height: 28px;
+	display: block;
+	width: 100%;
+	color: white;
+	-moz-transition: all .15s;
+    -webkit-transition: all .15s;
+    -o-transition: all .15s;
+    transition: all .15s;
+}
+
+nav.menu li a.active {
+	background: #263279;
+}
+
+nav.menu li a:hover {
+	background: #39468a;
+}
+
+.versions { 
+	position: relative;
+	margin-top: 12px;
+	font-size: 10px;
+	font-family: Helvetica, Arial, sans-serif;
+	width: 960px;
+	margin: 0px auto;
+}
+.publicVersion { position: absolute; left: 0px; text-align: left; top: -60px; }
+.devVersion { position: absolute; right: 0px; text-align: right; top: -60px; }
+#devVersNum { display: inline-block; }
+
+/* End Navigation Styles */
+
+/* Content area */
+
+.main {
+	padding: 15px 0px;
+	background: #172D14 url('Images/mosaic-background-pattern.ffaa776b.webp') no-repeat top center;
+	background-size: cover;
+	background-attachment: fixed;
+	border-bottom: 5px solid white;
+}
+
+a {
+  color: #8fa6ff;
+  text-decoration: none;
+}
