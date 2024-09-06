@@ -66,7 +66,9 @@ footer p{ font-size:0.85rem!important; }
 
 <h1 style="margin-top:10px;">Jab 1 - Left Scratch</h1>
 
-<button data-target-id="div1" onClick="toggle(event)">Jab 1 Details</button>
+<p style="margin-top:20px;">Sceptile scratches with its left arm. By tapping the A Button, this move can transition into Jab 2.</p>
+
+<button style="margin-top:20px;" data-target-id="div1" onClick="toggle(event)">Jab 1 Details</button>
 	<div id="div1" class="hidden">
     		<p style="margin-top:10px;">Startup: Frame 5</p>
 			<p style="margin-top:10px;">Hitbox Duration: 2 Frames</p>
@@ -83,7 +85,6 @@ footer p{ font-size:0.85rem!important; }
 			<p style="margin-top:10px;">SFX: Weak Slash</p>
 			<p style="margin-top:10px;">Element: Slash</p>
   </div>
-
 <p><br><clear></clear></p>
 
 <div style="margin-top:10px;" class="char_slides">
@@ -94,7 +95,9 @@ footer p{ font-size:0.85rem!important; }
 
 <h1 style="margin-top:10px;">Jab 2 - Right Scratch</h1>
 
-<button data-target-id="div2" onClick="toggle(event)">Jab 2 Details</button>
+<p style="margin-top:20px;">Sceptile scratches with its right arm. By tapping the A Button, this move can transition into Jab 3.</p>
+
+<button style="margin-top:20px;" data-target-id="div2" onClick="toggle(event)">Jab 2 Details</button>
 	<div id="div2" class="hidden">
 			<p style="margin-top:10px;">Startup: Frame 4</p>
 			<p style="margin-top:10px;">Hitbox Duration: 3 Frames</p>
@@ -111,9 +114,192 @@ footer p{ font-size:0.85rem!important; }
 			<p style="margin-top:10px;">SFX: Weak Slash</p>
 			<p style="margin-top:10px;">Element: Slash</p>
 	</div>
-
 <p><br><clear></clear></p>
 
+<div style="margin-top:10px;" class="char_slides">
+	<video controls loop class="video">
+		<source src="../Resources/Videos/Jab 3.mp4" type="video/mp4">
+	</video>
+</div>
+
+<h1 style="margin-top:10px;">Jab 3 - Thrust Kick</h1>
+
+<p style="margin-top:20px;">Sceptile turns away while kicking in-front of itself with its left leg. This move serves as Sceptile's Jab Finisher, and deals higher knockback when compared to most Jab Finishers.</p>
+
+<button style="margin-top:20px;" data-target-id="div3" onClick="toggle(event)">Jab 3 Details</button>
+	<div id="div3" class="hidden">
+			<p style="margin-top:10px;">Startup: Frame 6</p>
+			<p style="margin-top:10px;">Hitbox Duration: 5 Frames</p>
+			<p style="margin-top:10px;">IASA: Frame 35</p>
+			<p style="margin-top:10px;">Damage: 6</p>
+			<p style="margin-top:10px;">Angle: 361</p>
+			<p style="margin-top:10px;">WKB: 0</p>
+			<p style="margin-top:10px;">KBG: 100</p>
+			<p style="margin-top:10px;">BKB: 40</p>
+			<p style="margin-top:10px;">Hitlag Multiplier: 1</p>
+			<p style="margin-top:10px;">SDI Multiplier: 1</p>
+			<p style="margin-top:10px;">SFX: Medium Kick</p>
+			<p style="margin-top:10px;">Element: Normal</p>
+	</div>
+<p><br><clear></clear></p>
+
+<div style="margin-top:10px;" class="char_slides">
+	<video controls loop class="video">
+		<source src="../Resources/Videos/Dash Attack.mp4" type="video/mp4">
+	</video>
+</div>
+
+<h1 style="margin-top:10px;">Dash Attack - Bouncing Slide Kick</h1>
+
+<p style="margin-top:20px;">While running, Sceptile slides to a stop with its right leg stretched out. The power of this move decays as Sceptile travels. If Sceptile strikes an opponent with this move, it'll recoil away from its foe and into the air. However, the player can hold the A Button to prevent the bounce from happening, in which the move will simply be able to interrupt earlier instead.</p>
+
+<button style="margin-top:20px;" data-target-id="div4" onClick="toggle(event)">Dash Attack Details</button>
+	<div id="div4" class="hidden">
+			<p style="margin-top:10px;">Startup: Frame 8</p>
+			<p style="margin-top:10px;">Hitbox Duration: 16 Frames</p>
+			<p style="margin-top:10px;">IASA: Frame 41*</p>
+			<p style="margin-top:10px;">*If the player chooses not to bounce on-hit (by holding the A Button), this move's IASA becomes Frame 31 instead.</p>
+			<p style="margin-top:10px;">Damage: 10</p>
+			<p style="margin-top:10px;">Angle: 100</p>
+			<p style="margin-top:10px;">WKB: 0</p>
+			<p style="margin-top:10px;">KBG: 80</p>
+			<p style="margin-top:10px;">BKB: 40</p>
+			<p style="margin-top:10px;">Hitlag Multiplier: 1</p>
+			<p style="margin-top:10px;">SDI Multiplier: 1</p>
+			<p style="margin-top:10px;">SFX: Medium Kick</p>
+			<p style="margin-top:10px;">Element: Normal</p>
+			<p style="margin-top:20px;">After 4 Frames of activity, the move's properties become the following:</p>
+			<p style="margin-top:10px;">Damage: 8</p>
+			<p style="margin-top:10px;">Angle: 80</p>
+			<p style="margin-top:10px;">WKB: 0</p>
+			<p style="margin-top:10px;">KBG: 90</p>
+			<p style="margin-top:10px;">BKB: 30</p>
+	</div>
+<p><br><clear></clear></p>
+
+<div style="margin-top:10px;" class="char_slides">
+	<video controls loop class="video">
+		<source src="../Resources/Videos/Dash Attack - Hit.mp4" type="video/mp4">
+	</video>
+</div>
+
+<h1 style="margin-top:10px;">Dash Attack - Bouncing Slide Kick - Hit</h1>
+
+<p style="margin-top:20px;">When Sceptile strikes an opponent with its Dash Attack (and if the A Button is not held down), it'll recoil away and into the air. The Control Stick can be tilted to influence Sceptile's direction. This bounce can be interrupted quite early, so be sure to make the most of it.</p>
+
+<button style="margin-top:20px;" data-target-id="div5" onClick="toggle(event)">Dash Attack Hit Details</button>
+	<div id="div5" class="hidden">
+			<p style="margin-top:10px;">IASA: Frame 15</p>
+	</div>
+<p><br><clear></clear></p>
+
+<div style="margin-top:10px;" class="char_slides">
+	<video controls loop class="video">
+		<source src="../Resources/Videos/Side Tilt.mp4" type="video/mp4">
+	</video>
+</div>
+
+<h1 style="margin-top:10px;">Side Tilt - Charge Punch</h1>
+
+<p style="margin-top:20px;">Sceptile rears back before lunging forward with a strike using its right fist. The player can delay this move by holding the A Button, but can release at anytime. However, upon holding the move to its limit, the attack becomes stronger.</p>
+
+<button style="margin-top:20px;" data-target-id="div6" onClick="toggle(event)">Side Tilt Details</button>
+	<div id="div6" class="hidden">
+			<p style="margin-top:10px;">Startup: Frame 9</p>
+			<p style="margin-top:10px;">Hitbox Duration: 3 Frames</p>
+			<p style="margin-top:10px;">IASA: Frame 33</p>
+			<p style="margin-top:10px;">Damage: 11</p>
+			<p style="margin-top:10px;">Angle: 361</p>
+			<p style="margin-top:10px;">WKB: 0</p>
+			<p style="margin-top:10px;">KBG: 100</p>
+			<p style="margin-top:10px;">BKB: 35</p>
+			<p style="margin-top:10px;">Hitlag Multiplier: 1</p>
+			<p style="margin-top:10px;">SDI Multiplier: 1</p>
+			<p style="margin-top:10px;">SFX: Medium Punch</p>
+			<p style="margin-top:10px;">Element: Normal</p>
+	</div>
+<p><br><clear></clear></p>
+
+<div style="margin-top:10px;" class="char_slides">
+	<video controls loop class="video">
+		<source src="../Resources/Videos/Side Tilt - Charge.mp4" type="video/mp4">
+	</video>
+</div>
+
+<h1 style="margin-top:10px;">Side Tilt - Charge Punch - Charged</h1>
+
+<p style="margin-top:20px;">If holding Side Tilt to its limit, Sceptile's attack increases in both damage and knockback. However, the player must commit to achieve this power.</p>
+
+<button style="margin-top:20px;" data-target-id="div7" onClick="toggle(event)">Side Tilt Charged Details</button>
+	<div id="div7" class="hidden">
+			<p style="margin-top:10px;">Startup: Frame 30</p>
+			<p style="margin-top:10px;">Hitbox Duration: 3 Frames</p>
+			<p style="margin-top:10px;">IASA: Frame 54</p>
+			<p style="margin-top:10px;">Damage: 16</p>
+			<p style="margin-top:10px;">Angle: 361</p>
+			<p style="margin-top:10px;">WKB: 0</p>
+			<p style="margin-top:10px;">KBG: 100</p>
+			<p style="margin-top:10px;">BKB: 45</p>
+			<p style="margin-top:10px;">Hitlag Multiplier: 1.25</p>
+			<p style="margin-top:10px;">SDI Multiplier: 0.75</p>
+			<p style="margin-top:10px;">SFX: Strong Punch</p>
+			<p style="margin-top:10px;">Element: Normal</p>
+	</div>
+<p><br><clear></clear></p>
+
+<div style="margin-top:10px;" class="char_slides">
+	<video controls loop class="video">
+		<source src="../Resources/Videos/Up Tilt.mp4" type="video/mp4">
+	</video>
+</div>
+
+<h1 style="margin-top:10px;">Up Tilt - Blade Uppercut</h1>
+
+<p style="margin-top:20px;">Sceptile swiftly uppercuts with its right arm as its blades extend. Not only is this move fast, it's also disjointed, thanks to those blades.</p>
+
+<button style="margin-top:20px;" data-target-id="div8" onClick="toggle(event)">Up Tilt Details</button>
+	<div id="div8" class="hidden">
+			<p style="margin-top:10px;">Startup: Frame 7</p>
+			<p style="margin-top:10px;">Hitbox Duration: 7 Frames</p>
+			<p style="margin-top:10px;">IASA: Frame 30</p>
+			<p style="margin-top:10px;">Damage: 8</p>
+			<p style="margin-top:10px;">Angle: 50</p>
+			<p style="margin-top:10px;">WKB: 0</p>
+			<p style="margin-top:10px;">KBG: 105</p>
+			<p style="margin-top:10px;">BKB: 45</p>
+			<p style="margin-top:10px;">Hitlag Multiplier: 1</p>
+			<p style="margin-top:10px;">SDI Multiplier: 1</p>
+			<p style="margin-top:10px;">SFX: Medium Slash</p>
+			<p style="margin-top:10px;">Element: Slash</p>
+	</div>
+<p><br><clear></clear></p>
+
+<div style="margin-top:10px;" class="char_slides">
+	<video controls loop class="video">
+		<source src="../Resources/Videos/Down Tilt.mp4" type="video/mp4">
+	</video>
+</div>
+
+<h1 style="margin-top:10px;">Down Tilt - Crouching Slash</h1>
+
+<p style="margin-top:20px;">Which crouching, Sceptile lunges forward, scratching with both of its hands. This move is among Sceptile's fastest attacks. It's even fast enough to link into itself when the enemy is at low damage.</p>
+
+<button style="margin-top:20px;" data-target-id="div9" onClick="toggle(event)">Down Tilt Details</button>
+	<div id="div9" class="hidden">
+			<p style="margin-top:10px;">Startup: Frame 7</p>
+			<p style="margin-top:10px;">Hitbox Duration: 2 Frames</p>
+			<p style="margin-top:10px;">IASA: Frame 21</p>
+			<p style="margin-top:10px;">Damage: 6</p>
+			<p style="margin-top:10px;">Angle: 60</p>
+			<p style="margin-top:10px;">WKB: 0</p>
+			<p style="margin-top:10px;">KBG: 90</p>
+			<p style="margin-top:10px;">BKB: 30</p>
+			<p style="margin-top:10px;">Hitlag Multiplier: 1</p>
+			<p style="margin-top:10px;">SDI Multiplier: 1</p>
+			<p style="margin-top:10px;">SFX: Medium Slash</p>
+			<p style="margin-top:10px;">Element: Slash</p>
+	</div>
+<p><br><clear></clear></p>
 
 			</section>
 		</article>
