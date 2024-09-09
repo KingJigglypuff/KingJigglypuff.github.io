@@ -126,11 +126,11 @@ nav.menu li a:hover {
 	border-bottom: 5px solid white;
 }
 
-.content., .content2 {
+.content {
 	margin-bottom: 10px;
 }
 
-.content h1, .content2 h1 {
+.content h1 {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 36px;
 	color: white;
@@ -139,12 +139,12 @@ nav.menu li a:hover {
 	line-height: 1em;
 }
 
-.content section h1, .content2 section h1 {
+.content section h1 {
 	margin: 12px 0px;
 	font-size: 28px;
 }
 
-.content section, .content2 section {
+.content section {
 	background: #133617;
 	border: 2px solid #368640;
 	margin-bottom: 10px;
@@ -156,10 +156,6 @@ nav.menu li a:hover {
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
 	border-radius: 2px;
-}
-
-.content2 section {
-	padding: 50px 10px;
 }
 
 .char_img, .char_slides {
@@ -233,9 +229,4 @@ Font1 {
 
 .hidden {
   display: none;
-}
-
-.left_button, .right_button {
-	position: relative;
-    z-index: 1;
 }
