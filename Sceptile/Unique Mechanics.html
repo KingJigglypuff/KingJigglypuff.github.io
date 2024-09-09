@@ -41,7 +41,7 @@ footer p{ font-size:0.85rem!important; }
 						<a href="Aerial Attacks.html">Aerial Attacks</a>
 						<a href="Throws.html">Throws</a>
 						<a href="Special Attacks.html">Special Attacks</a>
-						<a href="Unique Mechanics.html" class="active">Unique Mechanics</a>
+						<a href="Unique Mechanics.html"class="active">Unique Mechanics</a>
 					</div>
 				</li>
 				<li><a href="Download.html">Download</a></li>
@@ -56,14 +56,61 @@ footer p{ font-size:0.85rem!important; }
 	
 		
 		<article class="content char_page grid_12">
-			<h1>Moveset Showcase</h1>
+			<h1>Unique Mechanics</h1>
 			<section>
-				<h1 style="margin-top:10px;">Currently unavailable.</h1>
+<div style="margin-top:10px;" class="char_slides">
+	<video controls loop class="video">
+		<source src="../Resources/Videos/Wall Cling.mp4" type="video/mp4">
+	</video>
+</div>
 
-                <p style="margin-top:20px;">This page is a work in progress. Please come back some other time.</p>
-                <p><br></p>
+<h1 style="margin-top:10px;">Wall Cling</h1>
+
+<p style="margin-top:20px;">While specific characters can already cling to walls, Sceptile's is more mechanically in-depth, being similar to Knuckles' wall cling, in which it can climb up or down a wall, on-top of the existing wall cling mechanics. However, unlike Knuckles, Sceptile can cling to a wall without needing to use Side Special. As long as is Sceptile hasn't already clung once, the Control Stick can be held towards a nearby wall in order to cling to it. Once clung, Sceptile cannot cling again until it lands back on-stage.</p>
+
+<button style="margin-top:20px;" data-target-id="div1" onClick="toggle(event)">Wall Cling Details</button>
+	<div id="div1" class="hidden">
+<img src="../Resources/Images/Big_chungus.webp" style="position: relative; z-index: 1; width: 50%;">
+  </div>
+<p><br><clear></clear></p>
+
+<div style="margin-top:10px;" class="char_slides">
+	<video controls loop class="video">
+		<source src="../Resources/Videos/Air Throw.mp4" type="video/mp4">
+	</video>
+</div>
+
+<h1 style="margin-top:10px;">Air Grab - Leaf Storm Toss</h1>
+
+<p style="margin-top:20px;">Unique to Sceptile, the Grab Button (or Shield + Attack) can be pressed in the air to execute a special grab. If this grab connects, Sceptile will spin up into the air, then spin back down towards the stage with its victim in its arms. Prior to falling, Sceptile can influence its trajectory with the Control Stick. However, its victim can do the same.</p>
+
+<button style="margin-top:20px;" data-target-id="div2" onClick="toggle(event)">Air Grab Details</button>
+	<div id="div2" class="hidden">
+			<p style="margin-top:10px;">Work in progress. Will be finished later.</p>
+	</div>
+<p><br><clear></clear></p>
+
 			</section>
 		</article>
+
+<script>
+function toggle(e){
+    const button = e.target;
+    const divId = button.dataset.targetId;
+    const div = document.getElementById(divId);
+
+    if(div.classList.contains("hidden")){
+        div.classList.remove("hidden");
+        div.classList.add("show")
+    }
+    else{
+        div.classList.remove("show");
+        div.classList.add("hidden")
+    }
+}
+</script>		
+
+ </script>
 						
 		<script type="text/javascript">
 			$(document).ready(function() {
