@@ -66,12 +66,7 @@ footer p{ font-size:0.85rem!important; }
 
 <h1 style="margin-top:10px;">Wall Cling</h1>
 
-<p style="margin-top:20px;">While specific characters can already cling to walls, Sceptile's is more mechanically in-depth, being similar to Knuckles' wall cling, in which it can climb up or down a wall, on-top of the existing wall cling mechanics. However, unlike Knuckles, Sceptile can cling to a wall without needing to use Side Special. As long as is Sceptile hasn't already clung once, the Control Stick can be held towards a nearby wall in order to cling to it. Once clung, Sceptile cannot cling again until it lands back on-stage.</p>
-
-<button style="margin-top:20px;" data-target-id="div1" onClick="toggle(event)">Wall Cling Details</button>
-	<div id="div1" class="hidden">
-<img src="../Resources/Images/Big_chungus.webp" style="position: relative; z-index: 1; width: 50%;">
-  </div>
+<p style="margin-top:20px;">While specific characters can already cling to walls, Sceptile's is more mechanically in-depth, being similar to Knuckles' wall cling, in which it can climb up or down a wall, on-top of the existing wall cling mechanics. However, unlike Knuckles, Sceptile can cling to a wall without needing to use Side Special. As long as is Sceptile hasn't already clung once, the Control Stick can be held towards a nearby wall in order to cling to it. After a successful cling, Sceptile cannot cling again until it lands back on-stage.</p>
 <p><br><clear></clear></p>
 
 <div style="margin-top:10px;" class="char_slides">
@@ -82,11 +77,81 @@ footer p{ font-size:0.85rem!important; }
 
 <h1 style="margin-top:10px;">Air Grab - Leaf Storm Toss</h1>
 
-<p style="margin-top:20px;">Unique to Sceptile, the Grab Button (or Shield + Attack) can be pressed in the air to execute a special grab. If this grab connects, Sceptile will spin up into the air, then spin back down towards the stage with its victim in its arms. Prior to falling, Sceptile can influence its trajectory with the Control Stick. However, its victim can do the same.</p>
+<p style="margin-top:20px;">Unique to Sceptile, the Grab Button (or Shield + Attack) can be pressed in the air to execute a special grab. If this grab connects, Sceptile will spin up into the air, then spin back down towards the stage with its victim in its arms. Prior to falling, Sceptile can influence its trajectory with the Control Stick. However, its victim can do the same. The launch power of this throw scales with how long Sceptile falls with its victim for.</p>
 
-<button style="margin-top:20px;" data-target-id="div2" onClick="toggle(event)">Air Grab Details</button>
+<button style="margin-top:20px;" data-target-id="div1" onClick="toggle(event)">Air Grab Details</button>
+	<div id="div1" class="hidden">
+			<p style="margin-top:10px;">Grab Attempt</p>
+			<p style="margin-top:10px;">Startup: Frame 10</p>
+			<p style="margin-top:10px;">Grabbox Duration: 2 Frames</p>
+			<p style="margin-top:10px;">Landing Flag Window: Frame 5 - Frame 29</p>
+			<p style="margin-top:10px;">IASA: Frame 35</p>
+			<p style="margin-top:20px;">Throw</p>
+			<p style="margin-top:10px;">Damage: 6</p>
+			<p style="margin-top:10px;">Angle: 120</p>
+			<p style="margin-top:10px;">WKB: 0</p>
+			<p style="margin-top:10px;">KBG: 85*/115*/145*/171*</p>
+			<p style="margin-top:10px;">*KBG scales with how long Sceptile has fallen for</p>
+			<p style="margin-top:10px;">BKB: 100</p>
+			<p style="margin-top:10px;">Element: Normal</p>
+			<p style="margin-top:20px;">Pre-Throw Hit 1</p>
+			<p style="margin-top:10px;">Hitbox Duration: 2 Frames</p>
+			<p style="margin-top:10px;">Damage: 4</p>
+			<p style="margin-top:10px;">Angle: 361</p>
+			<p style="margin-top:10px;">WKB: 30</p>
+			<p style="margin-top:10px;">KBG: 100</p>
+			<p style="margin-top:10px;">BKB: 0</p>
+			<p style="margin-top:10px;">Hitlag Multiplier: 1</p>
+			<p style="margin-top:10px;">SDI Multiplier: 1</p>
+			<p style="margin-top:10px;">SFX: Strong Kick</p>
+			<p style="margin-top:10px;">Element: Normal</p>
+			<p style="margin-top:20px;">Pre-Throw Hit 2</p>
+			<p style="margin-top:10px;">Hitbox Duration: 1 Frame</p>
+			<p style="margin-top:10px;">Damage: 6</p>
+			<p style="margin-top:10px;">Angle: 361</p>
+			<p style="margin-top:10px;">WKB: 30</p>
+			<p style="margin-top:10px;">KBG: 100</p>
+			<p style="margin-top:10px;">BKB: 0</p>
+			<p style="margin-top:10px;">Hitlag Multiplier: 0</p>
+			<p style="margin-top:10px;">SDI Multiplier: 1</p>
+			<p style="margin-top:10px;">SFX: Strong Burn</p>
+			<p style="margin-top:10px;">Element: Normal</p>
+	</div>
+<p><br><clear></clear></p>
+
+<div style="margin-top:10px;" class="char_slides">
+	<video controls loop class="video">
+		<source src="../Resources/Videos/Up Taunt.mp4" type="video/mp4">
+	</video>
+</div>
+
+<h1 style="margin-top:10px;">Up Taunt</h1>
+
+<p style="margin-top:20px;">Sceptile picks a stick off the ground, puts it in its mouth, then holds it for a bit before spitting it out. What makes this taunt unique is how the stick is an item that can be picked up and thrown. During the holding pose, Sceptile can cancel the taunt with a jump to keep the stick in its mouth. Upon using the taunt again, Sceptile will immediately spit it out. Additionally, if Sceptile is holding a stick in its hand, using Up Taunt will have it place it back in its mouth to repeat the cycle all over again. While the stick is weak, it has many applications, given the nature of it being an item. Though be cautious, as the stick can be destroyed by enemy attacks when thrown.</p>
+
+<button style="margin-top:20px;" data-target-id="div2" onClick="toggle(event)">Up Taunt Details</button>
 	<div id="div2" class="hidden">
-			<p style="margin-top:10px;">Work in progress. Will be finished later.</p>
+			<p style="margin-top:10px;">Neutral State</p>
+			<p style="margin-top:10px;">Startup: Frame 97</p>
+			<p style="margin-top:10px;">IASA: Frame 116</p>
+			<p style="margin-top:10px;">Jump Cancel Window: Frame 42 - Frame 82</p>
+			<p style="margin-top:20px;">Stick Mouth State</p>
+			<p style="margin-top:10px;">Startup: 22</p>
+			<p style="margin-top:10px;">IASA: Frame 41</p>
+			<p style="margin-top:20px;">Stick Hand State</p>
+			<p style="margin-top:10px;">Startup: Frame 72</p>
+			<p style="margin-top:10px;">IASA: Frame 91</p>
+			<p style="margin-top:10px;">Jump Cancel Window: Frame 17 - Frame 57</p>
+			<p style="margin-top:20px;">Stick Item</p>
+			<p style="margin-top:10px;">Damage: 4</p>
+			<p style="margin-top:10px;">Angle: 361</p>
+			<p style="margin-top:10px;">WKB: 0</p>
+			<p style="margin-top:10px;">KBG: 30</p>
+			<p style="margin-top:10px;">BKB: 50</p>
+			<p style="margin-top:10px;">Hitlag Multiplier: 1</p>
+			<p style="margin-top:10px;">SDI Multiplier: 1</p>
+			<p style="margin-top:10px;">SFX: Weak Kick</p>
+			<p style="margin-top:10px;">Element: Normal</p>
 	</div>
 <p><br><clear></clear></p>
 

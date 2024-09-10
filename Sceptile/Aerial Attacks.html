@@ -203,15 +203,24 @@ footer p{ font-size:0.85rem!important; }
 	</div>
 <p><br><clear></clear></p>
 
-<div style="margin-top:10px;" class="char_slides">
-	<video controls loop class="video">
-		<source src="../Resources/Videos/Down Air.mp4" type="video/mp4">
-	</video>
+<h1 style="margin-top:10px;">Down Air - Bouncing Aerial Kick</h1>
+
+<button class="left_button" onclick="plusSlides(-1, 0)"><- Previous Part</button>
+<button class="right_button" onclick="plusSlides(1, 0)">Next Part -></button>
+<div style="margin-top:-50px;">
+	<div class="vid_slides1">
+		<video controls loop class="char_slides" style="margin-top:-73px;">
+			<source src="../Resources/Videos/Down Air.mp4" type="video/mp4">
+		</video>
+		<p style="margin-top:60px;">While airborne, Sceptile dives at a downward angle with a kick. Upon coming into contact with an opponent, Sceptile will recoil off of its foe. Though unlike Dash Attack, Sceptile will bounce, even if hitting an opponent's shield. Additionally, if landing on-stage with this move, Sceptile will slide for a short distance. (1/2)</p>
+	</div>
+	<div class="vid_slides1">
+		<video controls loop class="char_slides" style="margin-top:-73px;">
+			<source src="../Resources/Videos/Down Air - Hit.mp4" type="video/mp4">
+		</video>
+		<p style="margin-top:60px;">Upon striking an enemy with Down Air, Sceptile will recoil up and away from its foe. While not as fast as Dash Attack's bounce, this move's bounce can still be acted out of rather early. However, Sceptile won't be able to interrupt as early if bouncing off an opponent's shield. Additionally, the bounce trajectory can be influenced with the Control Stick in a similar fashion to Dash Attack's bounce. (2/2)</p>
+	</div>
 </div>
-
-<h1 style="margin-top:10px;">Down Air - Aerial Bouncing Kick</h1>
-
-<p style="margin-top:20px;">While airborne, Sceptile dives at a downward angle with a kick. Upon coming into contact with an opponent, Sceptile will recoil off of its foe. Though unlike Dash Attack, Sceptile will bounce, even if hitting an opponent's shield. Additionally, if landing on-stage with this move, Sceptile will slide for a short distance.</p>
 
 <button style="margin-top:20px;" data-target-id="div5" onClick="toggle(event)">Down Air Details</button>
 	<div id="div5" class="hidden">
@@ -234,21 +243,7 @@ footer p{ font-size:0.85rem!important; }
 			<p style="margin-top:20px;">Lingering Hit</p>
 			<p style="margin-top:10px;">Certain hitbox properties change after 6 Frames to the following:</p>
 			<p style="margin-top:10px;">Damage: 8</p>
-	</div>
-<p><br><clear></clear></p>
-
-<div style="margin-top:10px;" class="char_slides">
-	<video controls loop class="video">
-		<source src="../Resources/Videos/Down Air - Hit.mp4" type="video/mp4">
-	</video>
-</div>
-
-<h1 style="margin-top:10px;">Down Air - Aerial Bouncing Kick - Hit</h1>
-
-<p style="margin-top:20px;">Upon striking an enemy with Down Air, Sceptile will recoil up and away from its foe. While not as fast as Dash Attack's bounce, this move's bounce can still be acted out of rather early. However, Sceptile won't be able to interrupt as early if bouncing off an opponent's shield. Additionally, the bounce trajectory can be influenced with the Control Stick in a similar fashion to Dash Attack's bounce.</p>
-
-<button style="margin-top:20px;" data-target-id="div6" onClick="toggle(event)">Down Air Hit Details</button>
-	<div id="div6" class="hidden">
+			<p style="margin-top:20px;">Bounce</p>
 			<p style="margin-top:10px;">IASA: Frame 21*</p>
 			<p style="margin-top:10px;">*If bouncing off an opponent's shield, the IASA becomes Frame 30</p>
 	</div>
@@ -297,6 +292,27 @@ function toggle(e){
 			}
 		})
 	})
+</script>
+
+<script>
+let slideIndex = [1];
+let slideId = ["vid_slides1"]
+showSlides(1, 0);
+
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
+  let i;
+  let x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";  
+}
 </script>		
 	</div>
 
