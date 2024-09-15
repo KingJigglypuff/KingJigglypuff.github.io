@@ -195,18 +195,6 @@ footer {
 
 /* End Footer */
 
-/* Impact font */
-
-@font-face {
-	font-family: "Impact";
-	src: url("../Fonts/impact.ttf") format("truetype");
-}
-
-Font1 {
-	font-family: "Impact";
-	font-size: 4em;
-}
-
 /* Dropdown Menu */
 
 .dropdown-content {
