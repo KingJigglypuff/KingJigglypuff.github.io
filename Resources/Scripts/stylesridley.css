@@ -23,7 +23,7 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 18px;
-  background: #031203;
+  background: #030312;
   color: #fff;
   margin: 0px;
 }
@@ -56,7 +56,7 @@ clear {
 }
 
 hr {
-	border-color: #368640;
+	border-color: #364086;
 }
 
 /* Header Block */
@@ -110,11 +110,11 @@ nav.menu li a {
 }
 
 nav.menu li a.active {
-	background: #267932;
+	background: #322679;
 }
 
 nav.menu li a:hover {
-	background: #398A46;
+	background: #46398a;
 }
 
 /* End Navigation Styles */
@@ -145,8 +145,8 @@ nav.menu li a:hover {
 }
 
 .content section, .content2 section {
-	background: #133617;
-	border: 2px solid #368640;
+	background: #171336;
+	border: 2px solid #403686;
 	margin-bottom: 10px;
 	padding: 10px;
 	-webkit-box-shadow: -1px 2px 2px rgba(0, 0, 0, 0.75);
@@ -166,7 +166,7 @@ nav.menu li a:hover {
 	width: 320px;
 	height: 240px;
 	float: right;
-	border: 3px solid #368640;
+	border: 3px solid #403686;
 	margin-left: 10px;
 	position: relative;
 	-webkit-border-radius: 10px;
