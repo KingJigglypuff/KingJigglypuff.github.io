@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  
+  <title>Project+Ex - Dark Samus - Moveset Showcase</title>
+  
+  <meta name="description" content="Project+Ex is an unofficial integration of the BrawlEx Engine into Project+.">
+  <meta name="keywords" content="smash bros, melee, brawl, competitive, fighter">
+  <meta name="robots" content="index, follow">
+
+  <link rel="icon" type="image/png" href="../Resources/Images/fav-icon.png">
+  <link href="../Resources/Scripts/stylesdarksamus.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="../Resources/Scripts/960.css">
+  <script src="../Resources/Scripts/jquery.js.download"></script>
+  <script src="../Resources/Scripts/jquery.cycle.lite.js.download"></script>
+  </head>
+
+<body>
+<style type="text/css">
+body {
+  margin-top:0 !important;
+  padding-top:0 !important;
+  /*min-width:800px !important;*/
+}
+a{ font-weight:700!important; }
+p{ font-size:1.1rem; line-height:1.3rem; }
+footer p{ font-size:0.85rem!important; }
+</style>
+
+	<header style="background-image:url('../Resources/Images/new.jpg'); background-size:cover;">
+		<div class="logo"><a style="width: 940px;" href="../index.html"><img src="../Resources/Images/logo2.png" alt="Project+Ex"></a></div>
+	</header><div class="menu_div">
+	<nav class="menu container_12">
+	  <ul>
+				<li><a href="../index.html">Back to Home</a></li>
+				<li class="dropdown">
+					<a href="javascript:void(0)">Characters</a>
+					<div class="dropdown-content">
+						<a href="Overview.html">Dark Samus</a>
+						<a href="../Ridley/Overview.html">Ridley</a>
+						<a href="../Waluigi/Overview.html">Waluigi</a>
+						<a href="../Sceptile/Overview.html">Sceptile</a>
+					</div>
+				</li>
+				<li class="dropdown">
+					<a href="javascript:void(0)" class="active">Moveset Showcase</a>
+					<div class="dropdown-content">
+						<a href="Grounded Attacks.html">Grounded Attacks</a>
+						<a href="Smash Attacks.html">Smash Attacks</a>
+						<a href="Aerial Attacks.html">Aerial Attacks</a>
+						<a href="Throws.html">Throws</a>
+						<a href="Special Attacks.html">Special Attacks</a>
+						<a href="Unique Mechanics.html"class="active">Unique Mechanics</a>
+					</div>
+				</li>
+				<li><a href="../Download.html">Download</a></li>
+			  </ul>
+	</nav>
+
+</div>
+
+<div class="main" style="background-image:url('../Resources/Images/mosaic-background-pattern.77aaff6b.webp');">
+
+	<div class="container_12">
+	
+		
+		<article class="content char_page grid_12">
+			<h1>Unique Mechanics (This page is a work in progress)</h1>
+			<section>
+<div style="margin-top:10px;" class="char_slides">
+	<video controls loop class="video">
+		<source src="../Resources/Videos/Wall Cling.mp4" type="video/mp4">
+	</video>
+</div>
+
+<h1 style="margin-top:10px;">Wall Cling</h1>
+
+<p style="margin-top:20px;">While specific characters can already cling to walls, Sceptile's is more mechanically in-depth, being similar to Knuckles' wall cling, in which it can climb up or down a wall, on-top of the existing wall cling mechanics. However, unlike Knuckles, Sceptile can cling to a wall without needing to use Side Special. As long as is Sceptile hasn't already clung once, the Control Stick can be held towards a nearby wall in order to cling to it. After a successful cling, Sceptile cannot cling again until it lands back on-stage.</p>
+<p><br><clear></clear></p>
+
+<div style="margin-top:10px;" class="char_slides">
+	<video controls loop class="video">
+		<source src="../Resources/Videos/Air Throw.mp4" type="video/mp4">
+	</video>
+</div>
+
+<h1 style="margin-top:10px;">Air Grab - Leaf Storm Toss</h1>
+
+<p style="margin-top:20px;">Unique to Sceptile, the Grab Button (or Shield + Attack) can be pressed in the air to execute a special grab. If this grab connects, Sceptile will spin up into the air, then spin back down towards the stage with its victim in its arms. Prior to falling, Sceptile can influence its trajectory with the Control Stick. However, its victim can do the same. The launch power of this throw scales with how long Sceptile falls with its victim for.</p>
+
+<button style="margin-top:20px;" data-target-id="div1" onClick="toggle(event)">Air Grab Details</button>
+	<div id="div1" class="hidden">
+			<p style="margin-top:10px;">Grab Attempt</p>
+			<p style="margin-top:10px;">Startup: Frame 10</p>
+			<p style="margin-top:10px;">Grabbox Duration: 2 Frames</p>
+			<p style="margin-top:10px;">Landing Flag Window: Frame 5 - Frame 29</p>
+			<p style="margin-top:10px;">IASA: Frame 35</p>
+			<p style="margin-top:20px;">Throw</p>
+			<p style="margin-top:10px;">Damage: 6</p>
+			<p style="margin-top:10px;">Angle: 120</p>
+			<p style="margin-top:10px;">WKB: 0</p>
+			<p style="margin-top:10px;">KBG: 85*/115*/145*/171*</p>
+			<p style="margin-top:10px;">*KBG scales with how long Sceptile has fallen for</p>
+			<p style="margin-top:10px;">BKB: 100</p>
+			<p style="margin-top:10px;">Element: Normal</p>
+			<p style="margin-top:20px;">Pre-Throw Hit 1</p>
+			<p style="margin-top:10px;">Hitbox Duration: 2 Frames</p>
+			<p style="margin-top:10px;">Damage: 4</p>
+			<p style="margin-top:10px;">Angle: 361</p>
+			<p style="margin-top:10px;">WKB: 30</p>
+			<p style="margin-top:10px;">KBG: 100</p>
+			<p style="margin-top:10px;">BKB: 0</p>
+			<p style="margin-top:10px;">Hitlag Multiplier: 1</p>
+			<p style="margin-top:10px;">SDI Multiplier: 1</p>
+			<p style="margin-top:10px;">SFX: Strong Kick</p>
+			<p style="margin-top:10px;">Element: Normal</p>
+			<p style="margin-top:20px;">Pre-Throw Hit 2</p>
+			<p style="margin-top:10px;">Hitbox Duration: 1 Frame</p>
+			<p style="margin-top:10px;">Damage: 6</p>
+			<p style="margin-top:10px;">Angle: 361</p>
+			<p style="margin-top:10px;">WKB: 30</p>
+			<p style="margin-top:10px;">KBG: 100</p>
+			<p style="margin-top:10px;">BKB: 0</p>
+			<p style="margin-top:10px;">Hitlag Multiplier: 0</p>
+			<p style="margin-top:10px;">SDI Multiplier: 1</p>
+			<p style="margin-top:10px;">SFX: Strong Burn</p>
+			<p style="margin-top:10px;">Element: Normal</p>
+	</div>
+<p><br><clear></clear></p>
+
+<div style="margin-top:10px;" class="char_slides">
+	<video controls loop class="video">
+		<source src="../Resources/Videos/Up Taunt.mp4" type="video/mp4">
+	</video>
+</div>
+
+<h1 style="margin-top:10px;">Up Taunt</h1>
+
+<p style="margin-top:20px;">Sceptile picks a stick off the ground, puts it in its mouth, then holds it for a bit before spitting it out. What makes this taunt unique is how the stick is an item that can be picked up and thrown. During the holding pose, Sceptile can cancel the taunt with a jump to keep the stick in its mouth. Upon using the taunt again, Sceptile will immediately spit it out. Additionally, if Sceptile is holding a stick in its hand, using Up Taunt will have it place it back in its mouth to repeat the cycle all over again. While the stick is weak, it has many applications, given the nature of it being an item. Though be cautious, as the stick can be destroyed by enemy attacks when thrown.</p>
+
+<button style="margin-top:20px;" data-target-id="div2" onClick="toggle(event)">Up Taunt Details</button>
+	<div id="div2" class="hidden">
+			<p style="margin-top:10px;">Neutral State</p>
+			<p style="margin-top:10px;">Startup: Frame 97</p>
+			<p style="margin-top:10px;">IASA: Frame 116</p>
+			<p style="margin-top:10px;">Jump Cancel Window: Frame 42 - Frame 82</p>
+			<p style="margin-top:20px;">Stick Mouth State</p>
+			<p style="margin-top:10px;">Startup: 22</p>
+			<p style="margin-top:10px;">IASA: Frame 41</p>
+			<p style="margin-top:20px;">Stick Hand State</p>
+			<p style="margin-top:10px;">Startup: Frame 72</p>
+			<p style="margin-top:10px;">IASA: Frame 91</p>
+			<p style="margin-top:10px;">Jump Cancel Window: Frame 17 - Frame 57</p>
+			<p style="margin-top:20px;">Stick Item</p>
+			<p style="margin-top:10px;">Damage: 4</p>
+			<p style="margin-top:10px;">Angle: 361</p>
+			<p style="margin-top:10px;">WKB: 0</p>
+			<p style="margin-top:10px;">KBG: 30</p>
+			<p style="margin-top:10px;">BKB: 50</p>
+			<p style="margin-top:10px;">Hitlag Multiplier: 1</p>
+			<p style="margin-top:10px;">SDI Multiplier: 1</p>
+			<p style="margin-top:10px;">SFX: Weak Kick</p>
+			<p style="margin-top:10px;">Element: Normal</p>
+	</div>
+<p><br><clear></clear></p>
+
+			</section>
+		</article>
+
+<script>
+function toggle(e){
+    const button = e.target;
+    const divId = button.dataset.targetId;
+    const div = document.getElementById(divId);
+
+    if(div.classList.contains("hidden")){
+        div.classList.remove("hidden");
+        div.classList.add("show")
+    }
+    else{
+        div.classList.remove("show");
+        div.classList.add("hidden")
+    }
+}
+</script>		
+
+ </script>
+						
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$("[id^=slideshow]").cycle({
+					fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+				});
+			});
+		</script>
+		
+		<script type="text/javascript">		
+	$(document).ready(function(){
+		if(localStorage.scrollPos) {
+			$("html").scrollTop(localStorage.scrollPos);
+			$("body").scrollTop(localStorage.scrollPos);
+		}
+	
+		$(window).unload(function(){
+			if(typeof(Storage)!=="undefined") {
+				localStorage.scrollPos = $(window).scrollTop();	
+			}
+		})
+	})
+</script>		
+	</div>
+
+</div>
+
+  <script type="text/javascript">
+	$(document).ready(function(){
+		$('.collapse').hide();
+	});
+
+	$('.change_icon').click(function(e) {
+	      $( this ).siblings('.collapse').toggle();
+	});
+
+        $('.change_title').click(function(e) {
+	      $( this ).siblings('.collapse').toggle();
+	});
+	</script>
+  
+  <footer>
+    <p>Blog made by: KingJigglypuff (<a href="https://projectmridley.github.io/ridley/">forked from SOJ's Ridley page)</a>. <a href="https://github.com/KingJigglypuff/KingJigglypuff.github.io">Page Source.</a></p>
+    <p><a href="https://docs.google.com/document/d/1H65jq-rQE-Gd-Ozz7L2It9bYv7ibEszxodSLiqsJDyU/edit?usp=sharing">Ridley Credits</a> | <a href="https://github.com/KingJigglypuff/project-plus-ex">Project+Ex Github Repository</a> | <a href="https://projectplusgame.com/">Project+</a></p>
+  </footer>
+</body></html>
